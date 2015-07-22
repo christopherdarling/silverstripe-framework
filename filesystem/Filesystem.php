@@ -43,7 +43,7 @@ class Filesystem extends Object {
 	/**
 	 * Create a folder on the filesystem, recursively.
 	 * Uses {@link Filesystem::$folder_create_mask} to set filesystem permissions.
-	 * Use {@link Folder::findOrMake()} to create a {@link Folder} database
+	 * Use {@link Folder::find_or_make()} to create a {@link Folder} database
 	 * record automatically.
 	 *
 	 * @param String $folder Absolute folder path
